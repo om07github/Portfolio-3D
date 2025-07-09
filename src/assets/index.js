@@ -33,21 +33,21 @@ import fullstack from "./fullstack.png";
 import backend from "./backend.png";
 import mypic from "./my_pic.jpg";
 
-import JustBlog from "./JustBlog.jpg";
+import staySure from "./staySure.png";
 import QuickConnect from "./quickconnect.jpg";
 import Musitech from "./MUSITECH.jpg";
 import hacktober from "./hacktoberfest.png";
 import linux from "./linuxlogo.svg";
-import nssImage from "./nss_image.png";
+import inventory_hub from "./inventory_hub.png";
 import QuickConnect1 from "./Quickconnect.png";
 import blogWebsite from "./blogwebsite.png";
-import currencyCon from "./Currency.png";
+import amazon from "./amazon.png";
 
 export {
-  currencyCon,
+  amazon,
   blogWebsite,
   QuickConnect1,
-  nssImage,
+  inventory_hub,
   favicon,
   creator,
   mobile,
@@ -79,7 +79,7 @@ export {
   backend,
   fullstack,
   mypic,
-  JustBlog,
+  staySure,
   QuickConnect,
   Musitech,
   linux,

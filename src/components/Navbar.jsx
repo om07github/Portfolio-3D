@@ -12,15 +12,10 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      if (scrollTop > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(scrollTop > 100);
     };
 
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -30,7 +25,7 @@ const Navbar = () => {
         styles.paddingY
       } w-full flex justify-center items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
-      } `}
+      }`}
     >
       <div className="w-full flex justify-between items-center mx-2 px-4 md:mx-6 max-w-7xl mx-auto">
         <Link
@@ -44,11 +39,11 @@ const Navbar = () => {
           <img
             src={mypic}
             alt="Logo"
-            className="h-10 w-10 rounded-full"
-            object-contain
+            className="h-10 w-10 rounded-full object-contain"
           />
-          <p className="text-white text-[10px] font-bold cursor-pointer flex-col ">
-            Prathamesh Pichkate &nbsp; <br />
+          <p className="text-white text-[10px] font-bold cursor-pointer flex-col">
+            Om Mahalle &nbsp;
+            <br />
             <span className="text-[16px]"> | Full Stack Developer</span>
           </p>
         </Link>
@@ -62,7 +57,17 @@ const Navbar = () => {
               } hover:text-white text-[14px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {nav.external ? (
+                <a
+                  href={nav.external}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {nav.title}
+                </a>
+              ) : (
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              )}
             </li>
           ))}
         </ul>
@@ -90,11 +95,21 @@ const Navbar = () => {
                   active === nav.title ? "text-white" : "text-secondary"
                 }`}
                 onClick={() => {
-                  setToggle(!toggle);
+                  setToggle(false);
                   setActive(nav.title);
                 }}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                {nav.external ? (
+                  <a
+                    href={nav.external}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {nav.title}
+                  </a>
+                ) : (
+                  <a href={`#${nav.id}`}>{nav.title}</a>
+                )}
               </li>
             ))}
           </ul>

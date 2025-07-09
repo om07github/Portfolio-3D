@@ -5,7 +5,6 @@ import { fadeIn, imageVarient, textVariant, subHeading } from "../utils/motion";
 import { ServiceCard } from "../components";
 import { SectionWrapper } from "../hoc";
 import { mypic } from "../assets";
-import Leetcode from "./Leetcode";
 
 const About = () => {
   return (
@@ -60,7 +59,6 @@ const About = () => {
         </div>
       </div>
 
-      <Leetcode />
     </>
   );
 };

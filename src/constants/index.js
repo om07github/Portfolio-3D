@@ -29,12 +29,18 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "experience",
-    title: "Experience",
+    id: "Leetcode",
+    title: "Leetcode",
+    external: "https://leetcode.com/u/LeetCodeOm/",
   },
   {
     id: "projects",
     title: "Works",
+  },
+  {
+    id: "Resume",
+    title: "Resume",
+    external: "https://drive.google.com/file/d/1eG1neDb0DOhfuSQSj_CWPYMmY-t4i8PD/view?usp=drive_link",
   },
 ];
 

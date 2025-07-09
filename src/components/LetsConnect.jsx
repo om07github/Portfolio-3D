@@ -10,22 +10,10 @@ const socialLinks = [
     hoverColor: "hover:text-blue-500",
   },
   {
-    href: import.meta.env.VITE_INSTAGRAM_LINK,
-    icon: <FaInstagram />,
-    textColor: "text-pink-500",
-    hoverColor: "hover:text-pink-500",
-  },
-  {
     href: import.meta.env.VITE_GITHUB_LINK,
     icon: <FaGithub />,
     textColor: "text-gray-900",
     hoverColor: "hover:text-gray-500",
-  },
-  {
-    href: import.meta.env.VITE_TWITTER_LINK,
-    icon: <FaTwitter />,
-    textColor: "text-blue-400",
-    hoverColor: "hover:text-blue-400",
   },
 ];
 

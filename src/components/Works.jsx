@@ -2,36 +2,36 @@ import React from "react";
 import { SectionWrapper } from "../hoc";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
-import { blogWebsite, QuickConnect1, nssImage, currencyCon } from "../assets";
+import { staySure, QuickConnect1, inventory_hub, amazon } from "../assets";
 
 const projects = [
   {
     id: 1,
-    title: "JustBlogs",
+    title: "STAYSURE",
     github: import.meta.env.VITE_JUSTBLOG_GITHUB_REPO,
     live: import.meta.env.VITE_JUSTBLOG_LIVE_PROJECT,
-    image: blogWebsite,
+    image: staySure,
   },
   {
     id: 2,
-    title: "QuickConnect",
+    title: "SocketSpace",
     github: import.meta.env.VITE_QUICKCONNECT_GITHUB_REPO,
     live: import.meta.env.VITE_QUICKCONNECT_LIVE_PROJECT,
     image: QuickConnect1,
   },
   {
     id: 3,
-    title: "NSS PDEA Website",
+    title: "InventoryHub",
     github: import.meta.env.VITE_NSS_GITHUB_REPO,
     live: import.meta.env.VITE_NSS_LIVE_PROJECT,
-    image: nssImage,
+    image: inventory_hub,
   },
   {
     id: 4,
-    title: " Currency Converter",
+    title: "Amazon-Clone",
     github: import.meta.env.VITE_CC_GITHUB_REPO,
     live: import.meta.env.VITE_CC_LIVE_PROJECT,
-    image: currencyCon,
+    image: amazon,
   },
 ];
 
