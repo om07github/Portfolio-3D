@@ -1,0 +1,22 @@
+/* Add this to your global CSS file */
+.perspective-2500 {
+  perspective: 2500px;
+}
+
+/* Add these utility classes if you're not using a framework that provides them */
+.rotate-x-\[25deg\] {
+  transform: rotateX(25deg);
+}
+
+.translate-z-\[100px\] {
+  transform: translateZ(100px);
+}
+
+.translate-z-0 {
+  transform: translateZ(0);
+}
+
+/* Add a custom filter for the yellow glow effect */
+.drop-shadow-yellow {
+  filter: drop-shadow(0 0 12px rgba(255, 215, 0, 0.8));
+}
