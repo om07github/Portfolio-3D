@@ -7,7 +7,7 @@ import { staySure, QuickConnect1, inventory_hub, amazon } from "../assets";
 const projects = [
   {
     id: 1,
-    title: "STAYSURE",
+    title: "STAYSURE (contact page with Leaflet.js and OpenStreetMap)",
     github: import.meta.env.VITE_JUSTBLOG_GITHUB_REPO,
     live: import.meta.env.VITE_JUSTBLOG_LIVE_PROJECT,
     image: staySure,
