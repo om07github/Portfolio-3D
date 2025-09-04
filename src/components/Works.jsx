@@ -2,7 +2,7 @@ import React from "react";
 import { SectionWrapper } from "../hoc";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
-import { staySure, QuickConnect1, inventory_hub, amazon } from "../assets";
+import { staySure, QuickConnect1, Inventory, amazon, QuickAI } from "../assets";
 
 const projects = [
   {
@@ -21,13 +21,21 @@ const projects = [
   },
   {
     id: 3,
+    title: "QuickAI",
+    github: import.meta.env.VITE_QUICKAI_GITHUB_REPO,
+    live: import.meta.env.VITE_QUICKAI_LIVE_PROJECT,
+    image: QuickAI,
+  },
+
+  {
+    id: 4,
     title: "InventoryHub",
     github: import.meta.env.VITE_NSS_GITHUB_REPO,
     live: import.meta.env.VITE_NSS_LIVE_PROJECT,
-    image: inventory_hub,
+    image: Inventory,
   },
   {
-    id: 4,
+    id: 5,
     title: "Amazon-Clone",
     github: import.meta.env.VITE_CC_GITHUB_REPO,
     live: import.meta.env.VITE_CC_LIVE_PROJECT,

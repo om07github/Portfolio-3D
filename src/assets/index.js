@@ -42,8 +42,12 @@ import inventory_hub from "./inventory_hub.png";
 import QuickConnect1 from "./Quickconnect.png";
 import blogWebsite from "./blogwebsite.png";
 import amazon from "./amazon.png";
+import QuickAI from "./QuickAI.jpg"
+import Inventory from "./Inventory.jpg"
 
 export {
+  Inventory,
+  QuickAI,
   amazon,
   blogWebsite,
   QuickConnect1,
