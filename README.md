@@ -1,4 +1,4 @@
-# Prathamesh 3D Portfolio 🚀
+# Om 3D Portfolio 🚀
 
 A stunning 3D developer portfolio built using **React**, **Three.js**, and **TailwindCSS**, deployed on **Vercel**. This portfolio highlights my skills, experience, and projects with a visually appealing and interactive interface.
 
@@ -6,7 +6,7 @@ A stunning 3D developer portfolio built using **React**, **Three.js**, and **Tai
 
 ## 🌐 Live Demo
 
-👉 [Visit Portfolio](https://your-vercel-link.vercel.app)  
+👉 [Visit Portfolio](https://portfolio-3-d-phi.vercel.app/)  
 
 
 ---
@@ -16,6 +16,7 @@ A stunning 3D developer portfolio built using **React**, **Three.js**, and **Tai
 - **React**
 - **Three.js**
 - **Tailwind CSS**
+- **Leaflet.js and OpenStreetMap**
 - **Vite** (if applicable)
 
 ---
@@ -30,14 +31,6 @@ A stunning 3D developer portfolio built using **React**, **Three.js**, and **Tai
 
 ---
 
-## 📸 Screenshots
-
-> _Example:_  
-> 1. Hero Section
-![hero](https://github.com/user-attachments/assets/a3219f4f-534c-42bf-b0e5-9d1e877e2536)
-
-
----
 
 ## 🧑‍💻 Getting Started
 
