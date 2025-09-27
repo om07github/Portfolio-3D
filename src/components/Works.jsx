@@ -7,7 +7,6 @@ import { staySure, QuickConnect1, Inventory, amazon, QuickAI } from "../assets";
 const projects = [
   {
     id: 1,
-    title: "STAYSURE ",
     title: "SocketSpace",
     github: import.meta.env.VITE_QUICKCONNECT_GITHUB_REPO,
     live: import.meta.env.VITE_QUICKCONNECT_LIVE_PROJECT,
@@ -15,6 +14,7 @@ const projects = [
   },
   {
     id: 2,
+    title: "STAYSURE ",
     github: import.meta.env.VITE_JUSTBLOG_GITHUB_REPO,
     live: import.meta.env.VITE_JUSTBLOG_LIVE_PROJECT,
     image: staySure,
