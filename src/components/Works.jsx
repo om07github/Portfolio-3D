@@ -7,17 +7,17 @@ import { staySure, QuickConnect1, Inventory, amazon, QuickAI } from "../assets";
 const projects = [
   {
     id: 1,
-    title: "STAYSURE (contact page with Leaflet.js and OpenStreetMap)",
-    github: import.meta.env.VITE_JUSTBLOG_GITHUB_REPO,
-    live: import.meta.env.VITE_JUSTBLOG_LIVE_PROJECT,
-    image: staySure,
-  },
-  {
-    id: 2,
+    title: "STAYSURE ",
     title: "SocketSpace",
     github: import.meta.env.VITE_QUICKCONNECT_GITHUB_REPO,
     live: import.meta.env.VITE_QUICKCONNECT_LIVE_PROJECT,
     image: QuickConnect1,
+  },
+  {
+    id: 2,
+    github: import.meta.env.VITE_JUSTBLOG_GITHUB_REPO,
+    live: import.meta.env.VITE_JUSTBLOG_LIVE_PROJECT,
+    image: staySure,
   },
   {
     id: 3,

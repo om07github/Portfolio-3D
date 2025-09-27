@@ -115,16 +115,6 @@ const technologies = [
     icon: git,
     speed: 2.4,
   },
-  {
-    name: "Figma",
-    icon: figma,
-    speed: 1.9,
-  },
-  {
-    name: "Docker",
-    icon: docker,
-    speed: 1.7,
-  },
 ];
 
 const experiences = [
